@@ -1,14 +1,14 @@
-# 🇮🇳 YojnaPortal v2 — Government Scheme Finder
+# 🇮🇳 YojnaPortal— Government Scheme Finder
 
-## ✨ New in v2
-- 🔑 **Login on startup** — App opens with login/signup first
-- 🌐 **8 Languages** — English, Hindi, Marathi, Bengali, Tamil, Telugu, Gujarati, Kannada
-- 📋 **25 Real Schemes** — Education, Agriculture, Health, Business, Housing, Women, Senior Citizen, Divyang
-- ✅ **Strict Eligibility** — "Other" occupation requires text; income > ₹15L filters out income schemes
-- 👶 **Baby/Infant option** — in Education field for child schemes
-- 🚀 **Apply on Official Website** — opens real govt site in new tab
 
-## 🗂️ File Structure
+Login on startup— App opens with login/signup first
+8 Languages — English, Hindi, Marathi, Bengali, Tamil, Telugu, Gujarati, Kannada
+25 Real Schemes — Education, Agriculture, Health, Business, Housing, Women, Senior Citizen, Divyang
+Strict Eligibility— "Other" occupation requires text; income > ₹15L filters out income schemes
+Baby/Infant option — in Education field for child schemes
+Apply on Official Website— opens real govt site in new tab
+
+ File Structure
 ```
 src/
 ├── App.js                      ← Main hub, shows login on start
@@ -29,14 +29,14 @@ src/
     └── Checker.js              ← 4-step eligibility checker with AI
 ```
 
-## 🚀 Setup (3 Commands)
+ Setup (3 Commands)
 ```bash
 cd Desktop/yojnaportal_v2
 npm install
 npm start
 ```
 
-## 🌐 Languages Supported
+ Languages Supported
 English · हिंदी · मराठी · বাংলা · தமிழ் · తెలుగు · ગુજરાતી · ಕನ್ನಡ
 
 Switch language from the navbar dropdown — entire UI changes instantly!
